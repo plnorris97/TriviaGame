@@ -1,0 +1,46 @@
+.container {
+    max-width: 1200px;
+    padding: 10px; 
+}
+
+.row {
+    padding: 30px;  
+}
+
+h1 {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-style: bold;
+}
+
+
+#intro {
+    background-color: white;
+    color: black;
+    font-family: Impact, sans-serif
+}
+
+#questions {
+    background-image: url("../images/michael-mroczek-440382-unsplash.jpg");
+    background-repeat: repeat-y;
+    color: white;
+    font-size: 1.5em; 
+    text-align: left;
+}
+
+label {
+    padding-right: 10px;
+    padding-bottom: 10px; 
+    font-size: 0.75em;
+}
+
+#game-over {
+    background-image: url("../images/chalkboard-1337809_1280.jpg");
+    border-image-width: 2px; 
+    background-repeat: no-repeat;
+    color: white; 
+    font-size: 2em;
+    padding: 10px; 
+}
+   

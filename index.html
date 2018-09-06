@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>   
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <title>Trivia Game</title>
+
+    <link rel="stylesheet" href="../TriviaGame/assets/css/style.css">
+
+</head>
+<body>
+    <div class="container" id="intro">
+        <div class="row">
+            <div class="column">
+                <h1 id="title">Best Bar Trivia Game</h1>
+                <h3>Answer all questions before time allotted expires.</h3>
+                </br>
+                <button id="start">Start</button>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="questions">
+        <div class="row">
+        </br>
+        </div>
+        <div class="row">
+            <div class="column">  
+                <div id="display">Time Remaining: </div>         
+            </br>
+                <p>#1: Which US state is named on the label of a Jack Daniels bottle?</p>
+                    <input type="radio" id="answer" name="question1" value="incorrect" unchecked />
+                    <label for="Kentucky">Kentucky</label>
+                    <input type="radio" id="answer" name="question1" value="incorrect" unchecked />
+                    <label for="North-Carolina">North Carolina</label>
+                    <input type="radio" id="answer" name="question1" value="correct" unchecked />
+                    <label for="Tennessee">Tennessee</label>
+                    <input type="radio" id="answer" name="question1" value="incorrect" unchecked />
+                    <label for="Alabama">Alabama</label>
+                </p>
+                <p>#2: Which shoe company did Michael Jordan famously promote?</p>
+                    <input type="radio" id="answer" name="question2" value="incorrect" unchecked />
+                    <label for="Adidas">Adidas</label>
+                    <input type="radio" id="answer" name="question2" value="correct" unchecked />
+                    <label for="Nike">Nike</label>
+                    <input type="radio" id="answer" name="question2" value="incorrect" unchecked />
+                    <label for="Reebok">Reebok</label>
+                    <input type="radio" id="answer" name="question2" value="incorrect" unchecked />
+                    <label for="Air-Jordans">Air Jordans</label>
+                </p>
+                <p>#3: Scott Hamilton won Olympic gold for the USA on what surface?</p>
+                    <input type="radio" id="answer" name="question3" value="incorrect" unchecked />
+                    <label for="gymnasium">gymnasium</label>
+                    <input type="radio" id="answer" name="question3" value="incorrect" unchecked />
+                    <label for="water">water</label>
+                    <input type="radio" id="answer" name="question3" value="incorrect" unchecked />
+                    <label for="snow">snow</label>
+                    <input type="radio" id="answer" name="question3" value="correct" unchecked />
+                    <label for="ice">ice</label>
+                </p>
+                <p>#4: Where do the Super Bowl winning Steelers come from?</p>
+                    <input type="radio" id="answer" name="question4" value="correct" unchecked />
+                    <label for="Pittsburgh">Pittsburgh</label>
+                    <input type="radio" id="answer" name="question4" value="incorrect" unchecked />
+                    <label for="Philadelphia">Philadelphia</label>
+                    <input type="radio" id="answer" name="question4" value="incorrect" unchecked />
+                    <label for="Buffalo">Buffalo</label>
+                    <input type="radio" id="answer" name="question4" value="incorrect" unchecked />
+                    <label for="Cleveland">Cleveland</label>
+                </p>
+                <p>#5: Which state is called the Golden State?</p>
+                    <input type="radio" id="answer" name="question5" value="incorrect" unchecked />
+                    <label for="Florida">Florida</label>
+                    <input type="radio" id="answer" name="question5" value="correct" unchecked />
+                    <label for="California">California</label>
+                    <input type="radio" id="answer" name="question5" value="incorrect" unchecked />
+                    <label for="Texas">Texas</label>
+                    <input type="radio" id="answer" name="question5" value="incorrect" unchecked />
+                    <label for="South-Carolina">South Carolina</label>
+                </p>
+                <p>#6: The Fresh Prince of _______ was the subject of a 140+ show sitcom.</p>
+                    <input type="radio" id="answer" name="question6" value="incorrect" unchecked />
+                    <label for="Beverly-Hills">Beverly Hills</label>
+                    <input type="radio" id="answer" name="question6" value="correct" unchecked />
+                    <label for="Bel-Air">Bel Air</label>
+                    <input type="radio" id="answer" name="question6" value="incorrect" unchecked />
+                    <label for="Malibu">Malibu</label>
+                    <input type="radio" id="answer" name="question6" value="incorrect" unchecked />
+                    <label for="Belle-Glade">Belle Glade</label>
+                </p>
+                <p>#7: What is the Aloha State?</p>
+                    <input type="radio" id="answer" name="question7" value="correct" unchecked />
+                    <label for="Hawaii">Hawaii</label>
+                    <input type="radio" id="answer" name="question7" value="incorrect" unchecked />
+                    <label for="florida">Florida</label>
+                    <input type="radio" id="answer" name="question7" value="incorrect" unchecked />
+                    <label for="puerto-rico">Puerto Rico</label>
+                    <input type="radio" id="answer" name="question7" value="incorrect" unchecked />
+                    <label for="texas">Texas</label>
+                </p>
+                <p>#8: Which singer's name is Stefani Joanne Angelina Germanotta</p>
+                    <input type="radio" id="answer" name="question8" value="incorrect" unchecked />
+                    <label for="Gwen-Stefani">Gwen Stefani</label>
+                    <input type="radio" id="answer" name="question8" value="incorrect" unchecked />
+                    <label for="Madona">Madonna</label>
+                    <input type="radio" id="answer" name="question8" value="correct" unchecked />
+                    <label for="Lady-Gaga">Lady Gaga</label>
+                    <input type="radio" id="answer" name="question8" value="incorrect" unchecked />
+                    <label for="Demi-Lovato">Demi Lovato</label>
+                </p>
+                <p>#9: The amount of alcohol in beers made in the US is measured using what method?</p>
+                    <input type="radio" id="answer" name="question9" value="incorrect" unchecked />
+                    <label for="abp">ABP</label>
+                    <input type="radio" id="answer" name="question9" value="correct" unchecked />
+                    <label for="abv">ABV</label>
+                    <input type="radio" id="answer" name="question9" value="incorrect" unchecked />
+                    <label for="proof">Proof</label>
+                    <input type="radio" id="answer" name="question9" value="incorrect" unchecked />
+                    <label for="abw">ABW</label>
+                </p>
+                <p>#10: What color is Ted's hat in Curious George?</p>
+                    <input type="radio" id="answer" name="question10" value="incorrect" unchecked />
+                    <label for="green">green</label>
+                    <input type="radio" id="answer" name="question10" value="incorrect" unchecked />
+                    <label for="red">red</label>
+                    <input type="radio" id="answer" name="question10" value="correct" unchecked />
+                    <label for="yellow">yellow</label>
+                    <input type="radio" id="answer" name="question10" value="incorrect" unchecked />
+                    <label for="brown">brown</label>
+            </div> 
+        </div> 
+    </div> 
+    <div class="container" id="game-over">
+        <div class="row">
+            <div class="column">
+                <p>You're all done!</p>
+                <p id="correct">You answered correctly: </p>
+                <p id="incorrect">You answered incorrectly: </p>
+                <p id="unanswered">You did not answer: </p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../TriviaGame/assets/javascript/app.js"></script> 
+</body>
+</html>
